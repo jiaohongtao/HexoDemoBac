@@ -286,6 +286,12 @@
       {% endif %}
       </div>
 
+      <div>
+      {% if not is_index %}
+        {% include 'passage-end-tag.swig' %}
+      {% endif %}
+      </div>
+
       {%- if theme.wechat_subscriber.enable %}
         {{ partial('../_partials/post/wechat-subscriber.swig', {}, {cache: theme.cache.enable}) }}
       {%- endif %}

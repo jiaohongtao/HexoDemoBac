@@ -214,12 +214,13 @@ social_icons:
 # Blog rolls
 links_icon: link
 links_title: "友情链接"
-#links_layout: block
-links_layout: inline
+links_layout: block
+#links_layout: inline
 links:
   #Title: http://example.com
   2019-3.3_hexo-next主题创建个人博客: https://www.jianshu.com/p/ace7e6b9b2bc
   hexo搭建个人博客--NexT主题优化: https://www.jianshu.com/p/1f8107a8778c
+  hexo的next主题个性化配置教程: http://shenzekun.cn/hexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B.html
 
 # Sidebar Avatar
 avatar:
@@ -1188,3 +1189,11 @@ fireworks: false
 # mob_share:
 #   enable: true
 #   appkey: 2c099cf442200
+
+# jiathis分享
+jiathis: true
+# Warning: JiaThis does not support https.
+
+# # 文章末尾添加“本文结束”标记
+# passage_end_tag:
+#   enabled: true
