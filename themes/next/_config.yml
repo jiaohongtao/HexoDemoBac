@@ -1197,3 +1197,10 @@ jiathis: true
 # # 文章末尾添加“本文结束”标记
 # passage_end_tag:
 #   enabled: true
+
+# Online contact
+daovoice: true
+daovoice_app_id: febbd42e
+
+# 百度分享服务
+baidushare: true
