@@ -37,7 +37,8 @@
   <meta name="yandex-verification" content="{{ theme.yandex_site_verification }}">
 {%- endif %}
 {%- if theme.baidu_site_verification %}
-  <meta name="baidu-site-verification" content="{{ theme.baidu_site_verification }}">
+  <!-- <meta name="baidu-site-verification" content="{{ theme.baidu_site_verification }}"> -->
+  <meta name="baidu-site-verification" content="4c5HnvqRnw">
 {%- endif %}
 
 {%- if theme.facebook_sdk.enable and theme.facebook_sdk.webmaster %}
@@ -130,8 +131,9 @@
 <link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
 <style>
     .pace .pace-progress {
-        background: #ff009e; /*进度条颜色*/
-        height: 3px;
+        // background: #ff009e; /*进度条颜色*/
+        background: #33FF33; /*进度条颜色*/
+        height: 1px;
     }
     .pace .pace-progress-inner {
          box-shadow: 0 0 10px #ff009e, 0 0 5px #ff009e; /*阴影颜色*/

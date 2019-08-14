@@ -5,7 +5,6 @@ date: 2019-08-13 15:09:57
 tags:
 ---
 一般备份hexo目录是，发现主题并没有提交上去，如下图：
-![hexo主题备份问题](https://img-blog.csdnimg.cn/20190813151338961.png)
 ![lujingxianshi](/images/主题备份.png)
 
 解决方式如下：

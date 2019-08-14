@@ -134,10 +134,10 @@ yandex_site_verification:
 
 # Baidu Webmaster tools verification.
 # See: https://ziyuan.baidu.com/site
-baidu_site_verification:
+baidu_site_verification: true
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
-baidu_push: false
+baidu_push: true
 
 
 # ---------------------------------------------------------------
@@ -708,7 +708,7 @@ gitalk:
 
 # AddThis Share. See: https://www.addthis.com
 # Go to https://www.addthis.com/dashboard to customize your tools.
-add_this_id:
+add_this_id: ra-5d537b4ea24d2f1f
 
 # Likely Share
 # For more information: https://ilyabirman.net/projects/likely/, https://github.com/ilyabirman/Likely
@@ -966,7 +966,7 @@ mermaid:
 # Use velocity to animate everything.
 # For more information: http://velocityjs.org
 motion:
-  enable: true
+  enable: false
   async: false
   transition:
     # Transition variants:
@@ -1190,9 +1190,9 @@ fireworks: false
 #   enable: true
 #   appkey: 2c099cf442200
 
-# jiathis分享
-jiathis: true
-# Warning: JiaThis does not support https.
+# # jiathis分享
+# jiathis: true
+# # Warning: JiaThis does not support https.
 
 # # 文章末尾添加“本文结束”标记
 # passage_end_tag:
@@ -1202,5 +1202,9 @@ jiathis: true
 daovoice: true
 daovoice_app_id: febbd42e
 
-# # 百度分享服务
-# baidushare: true
+## 百度分享服务
+#baidushare: true
+
+# #Share
+# sharesdk: true
+# shareSDKappkey: 2c099cf442200
